@@ -1,0 +1,21 @@
+[project]
+name = "anji"
+version = "1.2.3"
+description = "stgdfg"
+authors = [
+    {name = "fareg"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "pytest (>=9.0.2,<10.0.0)",
+    "pytest-playwright (>=0.7.2,<0.8.0)",
+    "streamlit (>=1.55.0,<2.0.0)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
