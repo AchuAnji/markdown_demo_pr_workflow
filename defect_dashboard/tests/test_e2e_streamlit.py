@@ -1,4 +1,3 @@
-import time
 
 
 def test_streamlit_dashboard(page):
