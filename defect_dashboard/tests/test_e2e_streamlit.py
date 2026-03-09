@@ -1,5 +1,3 @@
-
-
 def test_streamlit_dashboard(page):
     # 1. Increase the timeout or wait for the app to load
     page.goto("http://localhost:8501", wait_until="networkidle")
