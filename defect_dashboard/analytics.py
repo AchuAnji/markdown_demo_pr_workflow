@@ -2,6 +2,14 @@
 
 from typing import List, Dict
 
+import logging
+
+logger = logging.getLogger(__name__)
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+)
+
 
 def identify_recurring_defects(defects: List[Dict]) -> Dict:
     """
