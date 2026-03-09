@@ -3,9 +3,7 @@ import time
 
 
 def test_streamlit_dashboard(page):
-    process = subprocess.Popen(
-        ["streamlit", "run", "app.py", "--server.port=8501"]
-    )
+    process = subprocess.Popen(["streamlit", "run", "app.py", "--server.port=8501"])
 
     # give streamlit time to start
     time.sleep(10)
