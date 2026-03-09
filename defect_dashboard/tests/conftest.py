@@ -21,6 +21,4 @@ def empty_defects():
 @pytest.fixture
 def single_zero_quantity():
     """Defect with zero quantity."""
-    return [
-        {"id": "D001", "lot_id": "LOT001", "quantity": 0}
-    ]
+    return [{"id": "D001", "lot_id": "LOT001", "quantity": 0}]
