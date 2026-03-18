@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os
 import sentry_sdk
-import time
 
 load_dotenv()
 
