@@ -38,3 +38,4 @@ urllib3==2.6.3
 psycopg2-binary==2.9.11
 types-psycopg2
 python-dotenv
+sentry-sdk==2.0.0
