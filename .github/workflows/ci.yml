@@ -96,3 +96,14 @@ jobs:
           file: ./coverage.xml
           flags: unittests
           name: codecov-umbrella
+  docker-build:
+    runs-on: ubuntu-latest
+    name: Build Docker Image
+    needs: [lint, test]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t markdown-demo:latest .
